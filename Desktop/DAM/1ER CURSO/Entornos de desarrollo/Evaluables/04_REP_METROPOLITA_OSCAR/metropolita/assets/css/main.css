@@ -3886,7 +3886,6 @@
 			#footer {
 				padding: 3rem 0 1rem 0 ;
 			}
-
 		}
 
 /* Flexgrid */
@@ -4225,5 +4224,9 @@
 			.grid-style > :nth-child(1n) {
 				width: calc(100% + 2rem);
 			}
+					
+		}
 
+		#three, #four, #footer section{
+			display: none;
 		}
